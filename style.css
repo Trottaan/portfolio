@@ -1,13 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    background-color: hsl(30, 38%, 92%);
 }
 body {
-background-color: #F7FFF0;
-color: #B0AFA7;
+    box-sizing: border-box;
+    height: 75vh ;
+    color: #000000;
 
 }
 .destaque_título {
 
     color: #5D8983;
+}
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo {
+    width: 615px;
+    flex-direction: column;
+}
+.apresentacao__conteudo__titulo {
+    font-size: 34px;
+}
+.apresentacao__conteudo__paragrafo {
+    font-size: 20px;
+    color: #1f1e1e;
+    font-family: 'Poppins', sans-serif;;
+}
+.apresentacao__links {
+    display: flex;
+    justify-content: start;
+}
+.apresentacao__links__linkedin {
+    margin-right: 100px;
 }

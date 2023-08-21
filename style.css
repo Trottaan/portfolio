@@ -13,7 +13,7 @@ body {
 }
 .destaque_título {
 
-    color: #5D8983;
+    color: #330580;
 }
 .apresentacao {
     margin: 10%;
@@ -38,5 +38,5 @@ body {
     justify-content: start;
 }
 .apresentacao__links__linkedin {
-    margin-right: 100px;
+    margin-left: 2dvb;
 }

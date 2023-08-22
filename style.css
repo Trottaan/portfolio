@@ -36,7 +36,16 @@ body {
 .apresentacao__links {
     display: flex;
     justify-content: start;
+    
 }
 .apresentacao__links__linkedin {
-    margin-left: 2dvb;
+    margin-left: 2dvb
+}
+.apresentacao__links__linkedin:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adapte os valores conforme necessário */
+    transform: scale(1.1); /* Isso aumentará ligeiramente o tamanho da imagem */
+}
+.apresentacao__links__github:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adapte os valores conforme necessário */
+    transform: scale(1.1); /* Isso aumentará ligeiramente o tamanho da imagem */
 }

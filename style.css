@@ -7,7 +7,7 @@
 }
 body {
     box-sizing: border-box;
-    height: 75vh ;
+    height: 100vh ;
     color: #000000;
 
 }
@@ -35,7 +35,8 @@ body {
 }
 .apresentacao__links {
     display: flex;
-    justify-content: start;
+    justify-content:start;
+    font-size: 11px;
     
 }
 .apresentacao__links__linkedin {

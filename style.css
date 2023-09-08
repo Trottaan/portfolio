@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -11,42 +10,41 @@ body {
     color: #000000;
 
 }
-.destaque_título {
-
-    color: #280563;
+.destaque__titulo {
+    color: #07415c; /* Aplicar uma cor a fonte*/
 }
 .apresentacao {
     margin: 10%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; /* Alinha os conteúdos da apresentacao no centro (Vertical) */
+    justify-content: space-between; /* Faz com que os conteúdos sejam posicionados com distâncias iguais entre uma e outra (Horizontal) */
 }
 .apresentacao__conteudo {
     width: 615px;
-    flex-direction: column;
+    flex-direction: column; /*Alinha os conteúdos no sentido de coluna */
 }
 .apresentacao__conteudo__titulo {
-    font-size: 34px;
+    font-size: 34px; /*Determina o valor da fonte */
 }
 .apresentacao__conteudo__paragrafo {
     font-size: 20px;
     color: #1f1e1e;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif; /*Define a fonte utilizada*/
 }
-.apresentacao__links {
-    display: flex;
+.apresentacao__conteudo__inferior__links {
+    display: flex; /*Escolhe o sistema de layout que vai ser utilizado */
     justify-content:start;
     font-size: 11px;
     
 }
 .apresentacao__links__linkedin {
-    margin-left: 2dvb
+    margin-left:0dvb /*Move a margem para a direita*/
 }
 .apresentacao__links__linkedin:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adapte os valores conforme necessário */
     transform: scale(1.1); /* Isso aumentará ligeiramente o tamanho da imagem */
 }
 .apresentacao__links__github:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adapte os valores conforme necessário */
-    transform: scale(1.1); /* Isso aumentará ligeiramente o tamanho da imagem */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.1); 
 }
